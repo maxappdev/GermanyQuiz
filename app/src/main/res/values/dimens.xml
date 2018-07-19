@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standart_padding">12dp</dimen>
+    <dimen name="standart_size">18sp</dimen>
+    <dimen name="min_size">12sp</dimen>
+    <dimen name="land_padding">2dp</dimen>
+    <dimen name="lanlabel_text_size">7sp</dimen>
+    <dimen name="standart_layout_margin">6dp</dimen>
+    <dimen name="button_elevation">12dp</dimen>
+    <dimen name="menubutton_margin">12dp</dimen>
+</resources>

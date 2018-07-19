@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quiz.admin.myquiz.ResultActivity">
+
+    <TextView
+        android:id="@+id/scoreLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/standart_layout_margin"
+        android:padding="@dimen/standart_padding"
+        android:text="@string/score_label"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scoreLabelTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/standart_layout_margin"
+        android:gravity="center"
+        android:padding="@dimen/standart_padding"
+        android:text="0%"
+        android:textColor="@color/colorPrimary"
+        android:textSize="48dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/noteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standart_layout_margin"
+        android:layout_below="@id/scoreTextView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="@dimen/standart_padding"
+        android:text="Lorem ipsum dolorem sit amet"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/highScoreView"
+        android:layout_margin="@dimen/standart_layout_margin"
+        android:gravity="center"
+        android:background="#FFF"
+        android:elevation="@dimen/button_elevation"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:padding="@dimen/standart_padding"
+        android:text="@string/button_newgame"
+        android:textSize="@dimen/standart_size" />
+
+    <Button
+        android:id="@+id/toMenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/newGameButton"
+        android:layout_margin="@dimen/standart_layout_margin"
+        android:gravity="center"
+        android:background="#FFF"
+        android:elevation="@dimen/button_elevation"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:padding="@dimen/standart_padding"
+        android:text="@string/button_tomenu"
+        android:textSize="@dimen/standart_size" />
+
+    <TextView
+        android:id="@+id/highScoreView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standart_layout_margin"
+        android:layout_below="@id/noteTextView"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:padding="@dimen/standart_padding"
+        android:text="New Highscore! 72%"
+        android:textSize="@dimen/standart_size"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

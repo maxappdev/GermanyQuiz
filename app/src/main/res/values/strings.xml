@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Germany Quiz</string>
+    <string name="test_string">Lorem ipsum Lorem ipsum dolorem sit amet Lorem ipsum dolorem sit?</string>
+    <string name="mistakes_count">Mistakes: 0</string>
+    <string name="correct_count">Correct: 0</string>
+    <string name="startImage_description">This image will be changed</string>
+    <string name="button1_startText">Answer 1</string>
+    <string name="button2_startText">Answer 2</string>
+    <string name="button3_startText">Answer 3</string>
+    <string name="button4_startText">Answer 4</string>
+    <string name="score_label">Percent of correct choices:</string>
+    <string name="score">0/10</string>
+    <string name="button_newgame">New Game</string>
+    <string name="button_tomenu">To Menu</string>
+    <string name="button_starttext">Start Game</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="key_value">3</string>
+    <string name="empty"></string>
+    <string name="settings_label">Settings</string>
+    <string name="bl_flag">Flag Of The Land</string>
+    <string name="bl_lage">Location Of The Land</string>
+    <string name="bl_wappen">Coat Of Arms</string>
+    <string name="highscore">Highscores</string>
+    <string name="person_maler">Painter</string>
+    <string name="person_physiker">Physicist</string>
+    <string name="person_theologe">Theologian</string>
+    <string name="person_journalistin">Journalist</string>
+    <string name="person_forscher">Scientist</string>
+    <string name="person_sportler">Sport-Star</string>
+    <string name="person_unternehmerin">Businesswoman</string>
+    <string name="person_sanger">Singer</string>
+    <string name="person_musiker">Musician</string>
+    <string name="person_politiker">Politician</string>
+    <string name="person_philosoph">Philosopher</string>
+    <string name="person_dichter">Poet</string>
+    <string name="person_koenig">King</string>
+    <string name="person_widerstandskampfer">Resistance Fighter</string>
+    <string name="person_fernsehmoderator">Presenter</string>
+    <string name="person_schriftsteller">Writer</string>
+    <string name="person_actor">Actor</string>
+    <string name="person_mystikerin">Musician</string>
+    <string name="person_entertainer">Entertainer</string>
+    <string name="person_bildhauer">Sculptor</string>
+    <string name="person_buchdrucker">Book Printer</string>
+    <string name="person_priester">Priest</string>
+    <string name="person_komponist">Composer</string>
+    <string name="person_actress">Actress</string>
+    <string name="person_philologe">Philologist</string>
+    <string name="person_sportlerin">Sport-Star</string>
+    <string name="person_erfinder">Inventor</string>
+    <string name="person_sangerin">Singer</string>
+    <string name="person_luftfahrtpionier">Aviator</string>
+    <string name="person_unternehmer">Businessman</string>
+    <string name="person_studentenfuhrer">Student Leader</string>
+    <string name="person_politikerin">Politician</string>
+    <string name="person_mediziner">Doctor</string>
+    <string name="person_kaiserin">Queen</string>
+    <string name="person_tierschützer">Animal conservationist</string>
+    <string name="person_ingenieur">Engineer</string>
+    <string name="sehenswuerdigkeit">Attraction</string>
+    <string name="st_wappen">Coat of Arms</string>
+    <string name="st_flagge">Flag</string>
+    <string name="st_lage">Location</string>
+    <string name="sound_preference">soundPref</string>
+    <string name="pref_key_topic">chooseTopic</string>
+    <string name="pref_key_mistcount">mistakesCount</string>
+    <string name="pref_title_mistcount">End game after</string>
+    <string name="pref_title_topic">Topic</string>
+    <string name="correct">Correct: </string>
+    <string name="falsestr">Mistakes: </string>
+    <string name="showHS">Your Highscore: 0%</string>
+    <string name="HSprog">Your Highscore: </string>
+    <string name="loading">Wait</string>
+    <string name="newHS">New High Score! </string>
+    <string name="best">You have answered all the questions! Great!</string>
+    <string name="nullquest">Are you joking? You have not even answered a single question. Really sad.</string>
+    <string name="onequest">You can do it better! Only 1 answer was correct.</string>
+    <string name="toomanypartone">You have made too many mistakes.</string>
+    <string name="toomanyparttwo">questions were answered correctly.</string>
+    <string name="sound">Sound</string>
+    <string name="enable">Enabled</string>
+    <string name="disable">Disabled</string>
+    <string name="chtopic">Choose topic</string>
+    <string name="chmistakes">Choose an amount of mistakes</string>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

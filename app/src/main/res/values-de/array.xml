@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_quiz_list_titles">
+        <item>3 Fehler</item>
+        <item>5 Fehler</item>
+        <item>10 Fehler</item>
+        <item>30 Fehler</item>>
+    </string-array>
+    <string-array name="pref_quiz_list_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="pref_quiz_list_topics">
+        <item>Bundesländer</item>
+        <item>Städte</item>
+        <item>Personen</item>
+        <item>Sehenswürdigkeiten</item>
+    </string-array>
+    <string-array name="pref_quiz_list_topvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

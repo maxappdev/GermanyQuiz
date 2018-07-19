@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="@string/pref_key_mistcount"
+        android:title="@string/pref_title_mistcount"
+        android:entries="@array/pref_quiz_list_titles"
+        android:entryValues="@array/pref_quiz_list_values"
+        android:defaultValue="3"
+        android:summary="@string/chmistakes"
+        />
+    <ListPreference
+        android:key="@string/pref_key_topic"
+        android:title="@string/pref_title_topic"
+        android:entries="@array/pref_quiz_list_topics"
+        android:entryValues="@array/pref_quiz_list_topvalues"
+        android:defaultValue="1"
+        android:summary="@string/chtopic"
+        />
+    <SwitchPreference
+        android:key="@string/sound_preference"
+        android:title="@string/sound"
+        android:summaryOff="@string/disable"
+        android:summaryOn="@string/enable"
+        android:defaultValue="false"
+        />
+
+</PreferenceScreen>
